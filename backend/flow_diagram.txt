@@ -1,0 +1,9 @@
+### Passing the file from the frontend to the backend
+
+Captured the body in the request
+
+Used .read() to read the file as bytes, basically raw bytes
+
+BytesIO() will then create an in-memory stream, a file-like object, from the raw bytes
+
+docx.Document() either accepts a path to a docx file or a file-like object as stated above
